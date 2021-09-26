@@ -145,8 +145,8 @@
       content: '';
       height: 276px;
       position: absolute;
-      right: -13px;
-      top: -12px;
+      right: -15px;
+      top: -14px;
       width: 560px;
       z-index: -5;
     }
@@ -176,6 +176,109 @@
       stroke: white;
     }
 
+  }
+}
+
+.benefits {
+  &_items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+  }
+
+  &_item {
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 100px;
+
+    &:nth-child(even) {
+      //top: 20px;
+      margin-left: 40px;
+      transform: translateY(25px);
+    }
+  }
+
+  &_item-1 {
+    position: relative;
+
+    &::before {
+      background-image: url('../images/line-1.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      bottom: 66px;
+      content: '';
+      height: 45px;
+      position: absolute;
+      right: -80px;
+      width: 245px;
+    }
+  }
+
+  &_item-3 {
+    position: relative;
+
+    &::before {
+      background-image: url('../images/line-2.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      bottom: 157px;
+      content: '';
+      height: 65px;
+      position: absolute;
+      right: -80px;
+      width: 470px;
+    }
+
+    &::after {
+      background-image: url('../images/line-3.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      bottom: 55px;
+      content: '';
+      height: 40px;
+      position: absolute;
+      right: -62px;
+      width: 254px;
+    }
+  }
+
+
+  &_num {
+    font-size: 36px;
+    line-height: 41px;
+    margin-right: 10px;
+  }
+
+  &_img {
+    margin-right: 32px;
+    position: relative;
+
+    &::before {
+      border: 2px solid white;
+      content: '';
+      height: 128px;
+      position: absolute;
+      right: -12px;
+      top: -12px;
+      width: 193px;
+      z-index: -5;
+    }
+  }
+
+  &_info {
+    width: 300px;
+  }
+
+  &_info-title {
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    width: 123px;
+  }
+
+  &_info-text {
+    font-size: 15px;
+    line-height: 18px;
   }
 }
 

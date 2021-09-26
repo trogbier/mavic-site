@@ -12,7 +12,7 @@ const SectionBenefits = () => {
                 <div className="container">
                     <h3 className="title">Преимущества</h3>
                     <div className="benefits_items">
-                        <div className="benefits_item">
+                        <div className="benefits_item benefits_item-1">
                             <div className="benefits_num">1</div>
                             <div className="benefits_img">
                                 <img src={benefits1} alt="benefits-1"/>
@@ -22,12 +22,12 @@ const SectionBenefits = () => {
                                 <p className="benefits_info-text">Mavic 2 унаследовал 6 стандартных режимов
                                     интеллектуальной
                                     съемки
-                                    QuickShot:Roket/Dronie/Circle/Helix/Boomerang/Asteroid.
+                                    QuickShot:Roket/ Dronie/ Circle/ Helix/ Boomerang/ Asteroid.
                                 </p>
                             </div>
                         </div>
                         <div className="benefits_item">
-                            <div className="benefits_num">1</div>
+                            <div className="benefits_num">2</div>
                             <div className="benefits_img">
                                 <img src={benefits2} alt="benefits-2"/>
                             </div>
@@ -40,8 +40,8 @@ const SectionBenefits = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="benefits_item">
-                            <div className="benefits_num">1</div>
+                        <div className="benefits_item benefits_item-3">
+                            <div className="benefits_num ">3</div>
                             <div className="benefits_img">
                                 <img src={benefits3} alt="benefits-3"/>
                             </div>
@@ -53,7 +53,7 @@ const SectionBenefits = () => {
                             </div>
                         </div>
                         <div className="benefits_item">
-                            <div className="benefits_num">1</div>
+                            <div className="benefits_num">4</div>
                             <div className="benefits_img">
                                 <img src={benefits4} alt="benefits-4"/>
                             </div>

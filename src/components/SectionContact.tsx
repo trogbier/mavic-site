@@ -2,6 +2,7 @@ import React from 'react';
 import youtube from '../images/youtube.svg'
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
+import Footer from "./Footer";
 
 
 const SectionContact = () => {
@@ -65,6 +66,7 @@ const SectionContact = () => {
                 </div>
             </div>
         </section>
+
 
     );
 };
