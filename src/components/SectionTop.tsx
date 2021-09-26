@@ -8,10 +8,11 @@ import mavic from '../images/mavic.png'
 const SectionTop = () => {
     return (
         <section className="page-section top">
-            <div className="container">
-                <div className="top_inner">
-                    <h1 className="top_title"/>
-                    <img src={mavic} alt="mavic"/>
+            <div className="page-section_wrapper top_wrapper">
+                <div className="container">
+                    <div className="top_inner">
+                        <h1 className="top_title">Mavic 2 Pro</h1>
+                        <img src={mavic} alt="mavic"/>
                         <p className="top_text">
                             Квадрокоптер Dji Mavic 2 Pro
                             с профессиональной камерой Hasselblad
@@ -33,9 +34,10 @@ const SectionTop = () => {
                                 </a>
                             </li>
                         </ul>
+                    </div>
                 </div>
+                <ScrollBtn/>
             </div>
-            <ScrollBtn/>
         </section>
     );
 };

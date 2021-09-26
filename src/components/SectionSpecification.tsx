@@ -5,6 +5,7 @@ import mavic from '../images/mavic.png'
 const SectionSpecification = () => {
     return (
         <section className="page-section specification">
+            <div className="page-section_wrapper top_wrapper">
             <div className="container">
                 <h3 className="title">Характеристики</h3>
                 <div className="specification_inner">
@@ -47,6 +48,7 @@ const SectionSpecification = () => {
                 </div>
             </div>
             <ScrollBtn/>
+            </div>
         </section>
 );
 };

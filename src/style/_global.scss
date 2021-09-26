@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 *,
@@ -31,10 +35,21 @@ h6 {
 }
 
 body {
-  color: #ffffff;
+  color: white;
+  font-size: 17px;
+  line-height: 26px;
+  margin: 0;
   min-width: 320px;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 15px;
+  width: 1370px;
 }
 
 .page-section {
@@ -42,11 +57,40 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
   position: relative;
+
+  &::before {
+    background: linear-gradient(107.54deg, rgba(23, 26, 28, 0.72) 0%, #5E5E57 100%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &_wrapper {
+    min-height: 100vh;
+    padding: 74px 0 50px;
+    position: relative;
+    z-index: 1;
+  }
 }
 
-.scroll_btn{
+.title {
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 55px;
+  padding-left: 25px;
+}
 
+.scroll-btn {
+  bottom: 0;
+  left: 0;
+  padding: 13px 0 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
 }
 
