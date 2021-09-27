@@ -8,14 +8,14 @@ import SectionContact from "../components/SectionContact";
 
 const MainPages = () => {
     return (
-        <>
+        <div className={'scroller '}>
             <SectionTop/>
             <SectionProduct/>
             <SectionBenefits/>
             <SectionSpecification/>
             <SectionQuestion/>
             <SectionContact/>
-        </>
+        </div>
     );
 };
 

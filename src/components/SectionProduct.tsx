@@ -1,13 +1,11 @@
 import React from 'react';
 import ScrollBtn from "./ScrollBtn";
 import slider1 from '../images/slider-1.jpg'
-import arrowLeft from '../images/arrow-left.svg'
-import arrowRight from '../images/arrow-right.svg'
 
 
 const SectionProduct = () => {
     return (
-        <section className="page-section products">
+        <section className="page-section products" id='products'>
             <div className="page-section_wrapper top_wrapper">
                 <div className="container">
                     <h3 className="title products_title">Что такое Mavic 2 Pro?</h3>
@@ -67,7 +65,7 @@ const SectionProduct = () => {
 
                     </div>
                 </div>
-                <ScrollBtn/>
+                <ScrollBtn nextLink={'benefits'}/>
             </div>
         </section>
 

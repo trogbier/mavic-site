@@ -51,12 +51,21 @@ body {
   width: 1370px;
 }
 
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+}
+
 .page-section {
   background-image: url('../images/bacground.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  scroll-snap-align: start;
 
   &::before {
     background: linear-gradient(107.54deg, rgba(23, 26, 28, 0.72) 0%, #5E5E57 100%);

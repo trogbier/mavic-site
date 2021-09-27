@@ -13,19 +13,19 @@ const Header = () => {
                     <nav className="menu">
                         <ul className="menu_list">
                             <li className="menu_list-item">
-                                <a href="#" className="menu_list-link">О ДРОНЕ</a>
+                                <a href={"#products"} className="menu_list-link">О ДРОНЕ</a>
                             </li>
                             <li className="menu_list-item">
-                                <a href="#" className="menu_list-link">ПРЕИМУЩЕСТВА</a>
+                                <a href={"#benefits"} className="menu_list-link">ПРЕИМУЩЕСТВА</a>
                             </li>
                             <li className="menu_list-item">
-                                <a href="#" className="menu_list-link">ХАРАКТЕРИСТИКИ</a>
+                                <a href={"#specification"} className="menu_list-link">ХАРАКТЕРИСТИКИ</a>
                             </li>
                             <li className="menu_list-item">
-                                <a href="#" className="menu_list-link">ВОПРОСЫ</a>
+                                <a href={"#question"} className="menu_list-link">ВОПРОСЫ</a>
                             </li>
                             <li className="menu_list-item">
-                                <a href="#" className="menu_list-link">КОНТАКТЫ</a>
+                                <a href={"#contacts"} className="menu_list-link">КОНТАКТЫ</a>
                             </li>
                         </ul>
                     </nav>

@@ -36,7 +36,7 @@ const SectionTop = () => {
                         </ul>
                     </div>
                 </div>
-                <ScrollBtn/>
+                <ScrollBtn nextLink={'products'}/>
             </div>
         </section>
     );

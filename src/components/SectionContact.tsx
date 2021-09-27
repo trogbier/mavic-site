@@ -5,7 +5,7 @@ import instagram from '../images/instagram.svg'
 
 const SectionContact = () => {
     return (
-        <section className="page-section contacts">
+        <section className="page-section contacts" id='contacts'>
             <div className="page-section_wrapper top_wrapper">
                 <div className="container">
                     <h3 className="title">Контакты</h3>

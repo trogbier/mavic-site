@@ -3,7 +3,7 @@ import ScrollBtn from "./ScrollBtn";
 
 const SectionQuestion = () => {
     return (
-        <section className="page-section question">
+        <section className="page-section question" id='question'>
             <div className="page-section_wrapper top_wrapper">
 
                 <div className="container">
@@ -55,7 +55,7 @@ const SectionQuestion = () => {
                         </div>
                     </div>
                 </div>
-                <ScrollBtn/>
+                <ScrollBtn nextLink={'contacts'}/>
             </div>
         </section>
 

@@ -7,7 +7,7 @@ import ScrollBtn from "./ScrollBtn";
 
 const SectionBenefits = () => {
     return (
-        <section className="page-section benefits">
+        <section className="page-section benefits" id='benefits'>
             <div className="page-section_wrapper top_wrapper">
                 <div className="container">
                     <h3 className="title">Преимущества</h3>
@@ -67,7 +67,7 @@ const SectionBenefits = () => {
                         </div>
                     </div>
                 </div>
-                <ScrollBtn/>
+                <ScrollBtn nextLink={'specification'}/>
             </div>
         </section>
     );
