@@ -26,18 +26,21 @@ const SectionContact = () => {
                             <div className="contacts_info-box">
                                 <p className="contacts_info-title">Киев</p>
                                 <a className="contacts_info-phone" href="tel:+80505676767">+8 (050) 567– 67 – 67</a>
+                                <br/>
                                 <a className="contacts_info-email"
                                    href="mailto:dgi.mavic2pro.kiev@mail.ru">dgi.mavic2pro.kiev@mail.ru</a>
                             </div>
                             <div className="contacts_info-box">
                                 <p className="contacts_info-title">Москва</p>
-                                <a className="contacts_info-phone" href="tel:+74995676767">+7 (499) 567– 67 – 67</a>
+                                <a className="contacts_info-phone" href="tel:+74995676767">+7 (499) 567 – 67 – 67</a>
+                                <br/>
                                 <a className="contacts_info-email"
                                    href="mailto:dgi.mavic2pro.moscow@mail.ru">dgi.mavic2pro.moscow@mail.ru</a>
                             </div>
                             <div className="contacts_info-box">
                                 <p className="contacts_info-title">Минск</p>
                                 <a className="contacts_info-phone" href="tel:+375175676767">+3 (7517) 567– 67 – 67</a>
+                                <br/>
                                 <a className="contacts_info-email"
                                    href="mailto:dgi.mavic2pro.minsk@mail.ru">dgi.mavic2pro.minsk@mail.ru</a>
                             </div>
