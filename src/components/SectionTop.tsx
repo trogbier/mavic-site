@@ -7,7 +7,7 @@ import mavic from '../images/mavic.png'
 
 const SectionTop = () => {
     return (
-        <section className="page-section top">
+        <section className="page-section top" id='top'>
             <div className="page-section_wrapper top_wrapper">
                 <div className="container">
                     <div className="top_inner">
@@ -19,17 +19,20 @@ const SectionTop = () => {
                         </p>
                         <ul className="top_social-list">
                             <li className="top_social-item">
-                                <a href="#" className="top_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="top_social-link" target={'_blank'}
+                                   rel="noreferrer">
                                     <img src={facebook} alt="facebook icon"/>
                                 </a>
                             </li>
                             <li className="top_social-item">
-                                <a href="#" className="top_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="top_social-link" target={'_blank'}
+                                   rel="noreferrer">
                                     <img src={youtube} alt="youtube icon"/>
                                 </a>
                             </li>
                             <li className="top_social-item">
-                                <a href="#" className="top_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="top_social-link" target={'_blank'}
+                                   rel="noreferrer">
                                     <img src={instagram} alt="instagram icon"/>
                                 </a>
                             </li>

@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {FormEvent} from 'react';
 import youtube from '../images/youtube.svg'
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
 
 const SectionContact = () => {
+
+    const submitHandler = (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        const formData = new FormData(e.currentTarget);
+        const data = {
+            username: `${formData.get('username')}`,
+            email: `${formData.get('email')}`,
+            problem: `${formData.get('problem')}`
+        }
+        console.log(data)
+    }
+
     return (
         <section className="page-section contacts" id='contacts'>
             <div className="page-section_wrapper top_wrapper">
@@ -31,31 +43,37 @@ const SectionContact = () => {
                             </div>
                         </div>
                         <div className="contacts_form">
-                            <form>
+                            <form onSubmit={(e) => submitHandler(e)}>
                                 <h4 className="contacts_form-title">Остались вопросы? </h4>
                                 <p className="contacts_form-text">Мы обязательно свяжемся с вами в течение двух рабочих
                                     дней</p>
                                 <div className="contacts_form-line">
-                                    <input className="contacts_form-input" placeholder="Ваше имя" type="text"/>
-                                    <input className="contacts_form-input" placeholder="Ваше e-mail" type="text"/>
+                                    <input className="contacts_form-input" placeholder="Ваше имя" type="text"
+                                           name={'username'} required/>
+                                    <input className="contacts_form-input" placeholder="Ваше e-mail" type="email"
+                                           name={'email'} required/>
                                 </div>
-                                <textarea className="contacts_form-textarea" placeholder="Что вас интересует?"/>
+                                <textarea className="contacts_form-textarea" placeholder="Что вас интересует?"
+                                          name={'problem'} required maxLength={500} minLength={10}/>
                                 <button className="contacts_form-btn" type="submit">Отправить</button>
                             </form>
                         </div>
                         <ul className="contacts_social-list">
                             <li className="contacts_social-item">
-                                <a href="#" className="contacts_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="contacts_social-link"
+                                   target={'_blank'} rel="noreferrer">
                                     <img src={facebook} alt="facebook icon"/>
                                 </a>
                             </li>
                             <li className="contacts_social-item">
-                                <a href="#" className="contacts_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="contacts_social-link"
+                                   target={'_blank'} rel="noreferrer">
                                     <img src={youtube} alt="youtube icon"/>
                                 </a>
                             </li>
                             <li className="contacts_social-item">
-                                <a href="#" className="contacts_social-link">
+                                <a href="https://www.instagram.com/?hl=en" className="contacts_social-link"
+                                   target={'_blank'} rel="noreferrer">
                                     <img src={instagram} alt="instagram icon"/>
                                 </a>
                             </li>
