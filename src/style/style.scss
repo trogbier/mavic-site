@@ -121,10 +121,13 @@
     display: flex;
     max-width: 560px;
     position: relative;
-    &-img{
+
+    &-img {
       height: 342px;
       width: 640px;
+      width: 640px;
     }
+
     &-text {
       bottom: 30px;
       font-size: 24px;
@@ -357,22 +360,26 @@
     max-width: 757px;
     padding-bottom: 20px;
     position: relative;
-
-    &::after {
-      background-image: url('../images/question-mavik.png');
-      bottom: 39px;
-      content: '';
-      height: 125px;
-      position: absolute;
-      right: -324px;
-      width: 319px;
-    }
   }
 
   &_item {
     background-color: rgba(0, 0, 0, .3);
     margin-bottom: 4px;
     max-width: 690px;
+
+    &:nth-child(3) {
+      position: relative;
+
+      &::after {
+        background-image: url('../images/question-mavik.png');
+        top: -30px;
+        content: '';
+        height: 125px;
+        position: absolute;
+        right: -391px;
+        width: 319px;
+      }
+    }
   }
 
   &_item-title,

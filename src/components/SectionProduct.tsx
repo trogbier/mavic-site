@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState} from 'react';
 import ScrollBtn from "./ScrollBtn";
 import slider1 from '../images/slider-1.jpg'
 import slider2 from '../images/slider-2.jpg'
@@ -28,7 +28,7 @@ const SectionProduct = () => {
         <section className="page-section products" id='products'>
             <div className="page-section_wrapper top_wrapper">
                 <div className="container">
-                    <h3 className="title products_title">Что такое Mavic {currentSlider+1} Pro?</h3>
+                    <h3 className="title products_title">Что такое Mavic {currentSlider + 1} Pro?</h3>
                     <div className="products_inner">
                         <div className="products_text">
                             <p>Дрон Mavic 2 Pro - это инженерное чудо, идеальное для аэросъемки. Дрон обладает всеми
