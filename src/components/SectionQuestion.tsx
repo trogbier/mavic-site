@@ -10,7 +10,6 @@ const SectionQuestion = () => {
                     <h3 className="title">Остались вопросы?</h3>
                     <div className="question_items">
                         <div className="question_item">
-                            <div className="c-title"/>
                             <h4 className="question_item-title">Какие отличия между Mavic 2 Pro и Mavic 2 Zoom?</h4>
                             <p className="question_item-text">В Mavic 2 улучшены практически все аспекты: камера,
                                 передача
@@ -22,7 +21,6 @@ const SectionQuestion = () => {
                             </p>
                         </div>
                         <div className="question_item">
-                            <div className="c-title"/>
                             <h4 className="question_item-title">Чем Mavic 2 лучше Mavic Pro? </h4>
                             <p className="question_item-text">В Mavic 2 улучшены практически все аспекты: камера,
                                 передача
@@ -34,7 +32,6 @@ const SectionQuestion = () => {
                             </p>
                         </div>
                         <div className="question_item">
-                            <div className="c-title"/>
                             <h4 className="question_item-title">Можно ли подключить Mavic 2 к очкам DJI Goggles?</h4>
                             <p className="question_item-text">В Mavic 2 улучшены практически все аспекты: камера,
                                 передача
@@ -46,7 +43,6 @@ const SectionQuestion = () => {
                             </p>
                         </div>
                         <div className="question_item">
-                            <div className="c-title"/>
                             <h4 className="question_item-title">Является ли Mavic 2 водонепроницаемым?</h4>
                             <p className="question_item-text">В Mavic 2 улучшены практически все аспекты: камера,
                                 передача

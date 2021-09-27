@@ -2,8 +2,6 @@ import React from 'react';
 import youtube from '../images/youtube.svg'
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
-import Footer from "./Footer";
-
 
 const SectionContact = () => {
     return (
@@ -63,6 +61,13 @@ const SectionContact = () => {
                             </li>
                         </ul>
                     </div>
+                    <footer className="footer">
+                        <div className="container">
+                            <p className="footer_copy">
+                                © DJI, 2020
+                            </p>
+                        </div>
+                    </footer>
                 </div>
             </div>
         </section>
